@@ -6,7 +6,7 @@ def prime?(number)
     t=true
     break
   end
-  i+=1
+  
 end
   return t
 end
