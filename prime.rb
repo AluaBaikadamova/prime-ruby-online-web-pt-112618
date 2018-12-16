@@ -1,7 +1,9 @@
 # Add  code here!
 def prime?(number)
   t=true
-  if ((number==1)||(number==-1)) return true
+  if ((number==1)||(number==-1)) 
+    return t
+  end
   for i in (2 .. number-1)
   if number.abs%i==0 
     t=false
