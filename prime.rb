@@ -1,8 +1,12 @@
 # Add  code here!
 def prime?(number)
   t=true
-  if (number<=2)
+  if (number<=1)
     t=false
+    return t
+  end
+   if (number=2)
+    t=true
     return t
   end
   for i in (2 .. number-1)
