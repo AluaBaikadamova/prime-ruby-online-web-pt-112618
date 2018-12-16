@@ -2,7 +2,8 @@
 def prime?(number)
   t=false
   for i=2 to number-1
-  if number%i==0 t=true
+  if number%i==0 
+    t=true
     break
   end
   i+=1
