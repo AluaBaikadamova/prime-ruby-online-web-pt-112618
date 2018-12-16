@@ -12,9 +12,9 @@ def prime?(number)
   for i in (2 .. number-1)
   if number%i==0 
     t=false
-     return t
+     break
   end
   i+=1
 end
- 
+ return t
 end
