@@ -11,10 +11,10 @@ def prime?(number)
   end
   for i in (2 .. number-1)
   if number%i==0 
-    t=false
+    t=true
     break
   end
-  
+  i+=1
 end
   return t
 end
