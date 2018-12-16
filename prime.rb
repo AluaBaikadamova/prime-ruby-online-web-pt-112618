@@ -5,5 +5,7 @@ def prime?(number)
   if number%i==0 t=true
     break
   end
+  i+=1
+end
   return t
 end
