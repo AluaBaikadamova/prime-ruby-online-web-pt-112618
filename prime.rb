@@ -5,12 +5,12 @@ def prime?(number)
     t=false
     return t
   end
-   if (number=2)
+   if (number==2)
     t=true
     return t
   end
   for i in (2 .. number-1)
-  if number.abs%i==0 
+  if number%i==0 
     t=false
     break
   end
