@@ -6,7 +6,7 @@ def prime?(number)
     return t
   end
    if (number==2)
-    t=false
+    t=true
     return t
   end
   for i in (2 .. number-1)
