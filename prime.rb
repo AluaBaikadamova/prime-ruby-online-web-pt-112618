@@ -6,12 +6,12 @@ def prime?(number)
     return t
   end
    if (number==2)
-    t=true
+    t=false
     return t
   end
   for i in (2 .. number-1)
   if number%i==0 
-    t=true
+    t=false
     break
   end
   i+=1
